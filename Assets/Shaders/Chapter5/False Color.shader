@@ -21,7 +21,7 @@ Shader "Custom/Chapter5/False Color"
                 o.pos = UnityObjectToClipPos(v.vertex);
                 
                 // 可视化法线方向
-                o.color = fixed4(v.normal * 0.5 + fixed3(0.5, 0.5, 0.5), 1.0, 1.0);
+                o.color = fixed4(v.normal * 0.5 + fixed3(0.5, 0.5, 0.5), 1.0);
 
                 // 可视化切线方向
                 o.color = fixed4(v.tangent * 0.5 + fixed3(0.5, 0.5, 0.5), 1.0);
